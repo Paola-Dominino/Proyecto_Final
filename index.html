@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <!-- Required meta tags -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Bootstrap CSS -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!--AOS-->
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ETNIAWABI - Paola Dominino</title>
+   <meta name="description" content="Tienda de Decoración. Creaciones de estilo étnico, rústico, natural">
+   <meta name="keywords"  content="PRODUCTOS, DECORACIÓN, TEXTURA, NATURAL, MACETAS, TAPICES, CUENCOS">
+   <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="./style2.css">
+</head>
+<header class="menudeInicio">
+        <div id="logo">
+            <h1> ETNIA.WABI
+            </h1>
+           </div> 
+        <nav >
+            <ul>
+                <li><a class="miCuenta" href="./index.html">HOME</a></li>
+                <li><a class="productos" href="./Paginas/productos.html">PRODUCTOS</a></li>
+                <li><a class="inspiracion" href="./Paginas/inspiracion.html">INSPIRACION</a></li>
+                <li><a class="contacto" href="./Paginas/contacto.html">CONTACTO</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<body>
+    <main>
+            <div class="etniaWabi">
+                <p class="textoPortada">
+                ETNIA.WABI nace con la idea de diseñar y crear piezas que decoren los lugares que habitamos y nos hagan conectar a través de los colores, las texturas y las formas con lo más profundo de nuestro ser. <br><br>
+                Inspirada en el wabi sabi, estilo de decoración japonés que se concentra en la belleza de la imperfección, en el valorar lo natural, apreciar el paso del tiempo y comprender lo efímero de la belleza.
+                </p>
+                <div class="containerSlider">
+                    <ul class="slider">
+                        <li id="slide1">
+                          <img src="./imagenes/portada-1.jpg"/>
+                        </li>
+                        <li id="slide2">
+                          <img src="./imagenes/portada-2.jpg"/>
+                        </li>
+                        <li id="slide3">
+                            <img src="./imagenes/portada-3.jpg"/>
+                        </li>
+                    </ul>
+                      
+                      <ul class="menu">
+                        <li>
+                          <a href="#slide1"></a>
+                        </li>
+                        <li>
+                          <a href="#slide2"></a>
+                        </li>
+                         <li>
+                          <a href="#slide3"></a>
+                        </li>
+                      </ul>
+                </div> 
+            </div>
+        <section id="shopNow">
+            <div data-aos="flip-up" id="circulosPortada">
+                <div class="coloresImagen"></div>
+                <a id="textoPortada" href="./Paginas/productos.html">COLORES</a>
+            </div>
+            <div data-aos="flip-up" id="circulosPortada">
+                <div class="texturaImagen"></div>
+                <a id="textoPortada" href="./Paginas/productos.html">TEXTURAS</a>
+            </div>
+            <div data-aos="flip-up" id="circulosPortada">
+                <div class="formaImagen"></div>
+                <a id="textoPortada" href="./Paginas/productos.html">FORMAS</a>
+            </div>
+    </section>
+    </main>
+
+    <script>  
+        AOS.init({
+        once: true
+        });
+    </script>
+
+
+</body>
+<footer class="footer">
+    <div class="detalleFooter">
+        <h3>SUSCRIBITE</h3>
+        <p class="textoFooter"> Recibí las últimas novedades en tu mail</p>
+        <input class="emailSuscripcion" type="email" name="" id="" placeholder= "Ingresá tu email">
+        <button class="botonSuscripcion">
+            SUSCRIBITE
+        </button>
+    </div>
+    <div class="detalleFooter">
+        <h3>CONTACTO</h3>
+        <p class="textoFooter">Tenés dudas? </p>
+            <a id="botonEscribinos" href="../PROYECTO FINAL/Paginas/contacto.html">Escribinos</a>
+    </div>
+    <div class="detalleFooter">
+        <h3 >SEGUINOS EN</h3>
+        <div >
+            <a href="#"><img class="logosFooter" src="./imagenes/logo-instagram.png" alt="">
+            </a>
+        </div>
+    </div>
+</footer>
+</html>
