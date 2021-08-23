@@ -15,9 +15,9 @@
    <meta name="description" content="Tienda de Decoración. Creaciones de estilo étnico, rústico, natural">
    <meta name="keywords"  content="DECORACIÓN, TEXTURA, COLOR, NATURAL, MACETAS, CUENCOS, VELAS">
    <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap" rel="stylesheet">
-   <link rel="stylesheet" href="../style2.css">
-
+   <link rel="stylesheet" href="../main.css">
 </head>
+<body>
 <header class="menudeInicio">
         <div id="logo">
             <h1> ETNIA.WABI
@@ -25,28 +25,34 @@
            </div> 
         <nav >
             <ul>
-                <li><a class="miCuenta" href="../index.html">HOME</a></li>
-                <li><a class="productos" href="#">PRODUCTOS</a></li>
-                <li><a class="inspiracion" href="./inspiracion.html">INSPIRACION</a></li>
-                <li><a class="contacto" href="./contacto.html">CONTACTO</a></li>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="../Paginas/aboutUs.html">ABOUT US</a></li>
+                <li><a href="#">PRODUCTOS</a></li>
+                <li><a href="./inspiracion.html">INSPIRACION</a></li>
+                <li><a href="./contacto.html">CONTACTO</a></li>
             </ul>
         </nav>
     </div>
 </header>
-<body>
+<main>
     <div id="grilla">
         <nav class="border">
             <h3 class="tituloCategorias" >Categorias</h3>
             <hr>
             <ul class="list-group">
-    letter-spacing: 1px;
-                <li class="list-group-item-action"><a class="list-group-item-action" href="#">TODOS</a></li>
-                <li class="list-group-item-action"><a class="list-group-item-action" href="#">KITS</a></li>
-                <li class="list-group-item-action"><a class="list-group-item-action" href="#">GIFT CARD</a></li>
-                <li class="list-group-item-action"><a class="list-group-item-action" href="#">SALE</a></li>
+
+                <li class="list-group-item-action listaCategorias1"><a class="list-group-item-action listaCategorias" href="#">TODOS</a></li>
+                <li class="list-group-item-action listaCategorias1"><a class="list-group-item-action listaCategorias" href="#">CUENCOS</a></li>
+                <li class="list-group-item-action listaCategorias1"><a class="list-group-item-action listaCategorias" href="#">MACETAS</a></li>
+                <li class="list-group-item-action listaCategorias1"><a class="list-group-item-action listaCategorias" href="#">TAPICES</a></li>
+                <li class="list-group-item-action listaCategorias1"><a class="list-group-item-action listaCategorias" href="#">VELAS</a></li>
+                <li class="list-group-item-action listaCategorias1"><a class="list-group-item-action listaCategorias" href="#">CESTERIA</a></li>
+                <li class="list-group-item-action listaCategorias1"><a class="list-group-item-action listaCategorias" href="#">MANTELES</a></li>
+                <li class="list-group-item-action listaCategorias1"><a class="list-group-item-action listaCategorias" href="#">GIFT CARD</a></li>
+                <li class="list-group-item-action listaCategorias1"><a class="list-group-item-action listaCategorias" href="#">SALE</a></li>
             </ul>
         </nav>
-        <section>
+        <article>
             <div class="card">
                 <img src="../imagenes/cuencos.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -55,8 +61,8 @@
                   <a href="#" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
-        </section>
-        <section>
+        </article>
+        <article>
             <div class="card">
                 <img src="../imagenes/velas.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -65,8 +71,8 @@
                   <a href="#" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
-        </section>
-        <section>
+        </article>
+        <article>
             <div class="card">
                 <img src="../imagenes/macetas.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -75,8 +81,8 @@
                   <a href="#" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
-        </section>
-        <section>
+        </article>
+        <article>
             <div class="card">
                 <img src="../imagenes/tapices.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -85,8 +91,8 @@
                   <a href="#" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
-        </section>
-        <section>
+        </article>
+        <article>
             <div class="card">
                 <img src="../imagenes/cuadros.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -95,8 +101,8 @@
                   <a href="#" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
-        </section>
-        <section>
+        </article>
+        <article>
             <div class="card">
                 <img src="../imagenes/individuales.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -105,10 +111,9 @@
                   <a href="#" class="btn btn-primary">COMPRAR</a>
                 </div>
             </div>
-        </section>
+        </article>
    </div>
-
-</body>
+</main>
 <footer class="footer">
     <div class="detalleFooter">
         <h3>SUSCRIBITE</h3>
@@ -125,8 +130,11 @@
     </div>
     <div class="detalleFooter">
         <h3 >SEGUINOS EN</h3>
-        <a href="">Logo Instagram</a>
+        <div >
+            <a href="#"><img class="logosFooter" src="../imagenes/logo-instagram.png" alt="">
+            </a>
+        </div>
     </div>
-
 </footer>
+</body>
 </html>
