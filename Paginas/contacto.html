@@ -18,77 +18,99 @@
         <link rel="stylesheet" href="../main.css">
      </head>
 <body>
-<header class="menudeInicio">
-    <div id="logo">
-        <h1> ETNIA.WABI
-        </h1>
-       </div> 
-    <nav >
-        <ul>
-            <li><a href="../index.html">HOME</a></li>
-            <li><a href="../Paginas/aboutUs.html">ABOUT US</a></li>
-            <li><a href="productos.html">PRODUCTOS</a></li>
-            <li><a href="./inspiracion.html">INSPIRACION</a></li>
-            <li><a href="#">CONTACTO</a></li>
-        </ul>
-    </nav>
-</div>
-</header>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../imagenes/logo-etniawabi.png" alt="" width="150" height="80">
+                  </a>
+              <button class="navbar-toggler justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" href="./aboutUs.html">ABOUT US</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./productos.html">PRODUCTOS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./inspiracion.html">INSIPRACIÓN</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACTO</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>  
 <main>
-<div class="formulario">
-    <form  action="#">
+  <div class="container-fluid formulario">
+    <div class="row">
+        <div class="col-md-6 col-sm-6"> 
+          <form  action="#">
             <fieldset class="formularioContacto">
-                <legend>
-                    Contactanos!
-                </legend>
-                <hr>
+              <legend>Contactanos!</legend>
+              <hr>
             <div>
-                <label for="userNombreApellido">Nombre y Apellido</label>
-                <input type="text" required>
+              <label for="userNombreApellido">Nombre y Apellido</label>
+              <input type="text" required>
             </div>
             <div>
-                <label>Email</label>
-                <input type="email" name="" id="" required>
+              <label>Email</label>
+              <input type="email" name="" id="" required>
             </div>
             <div>
-                <label>Teléfono</label>
-                <input type="tel" name="" id="" required>
+              <label>Teléfono</label>
+              <input type="tel" name="" id="" required>
             </div>
             <div>
-                <label>Mensaje</label>
-                <textarea name="" id="" cols="30" rows="10"></textarea>
+              <label>Mensaje</label>
+              <textarea name="" id="" cols="30" rows="10"></textarea>
             </div>
             <div>
-                <label>Quiero recibir novedades</label>
-                <input type="checkbox" name="acepta" value="1">
+              <label>Quiero recibir novedades</label>
+              <input type="checkbox" name="acepta" value="1">
             </div>
-            <input type="submit" value="Enviar">
-        </fieldset>
-    </form>
-</div>
-</main>
-<footer class="footer">
-    <div class="detalleFooter">
-        <h3>SUSCRIBITE</h3>
-        <p class="textoFooter"> Recibí las últimas novedades en tu mail</p>
-        <input class="emailSuscripcion" type="email" name="" id="" placeholder= "Ingresá tu email">
-        <button class="botonSuscripcion">
-            SUSCRIBITE
-        </button>
+               <input type="submit" value="Enviar">
+            </fieldset>
+          </form>
+      </div>
+      <div class="col-md-6 col-sm-6">
+        <div class="embed-responsive embed-responsive-16by9 videoContacto d-none d-md-block">
+          <iframe class="embed-responsive-item"  src="https://www.youtube.com/embed/wk4fCQQzwWc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
     </div>
-    <div class="detalleFooter">
+  </div>
+</main>
+<footer> 
+  <div class="container-fluid ">
+    <div class="row footer">
+      <div class="col-md-4 col-sm-6 detalleFooter">
+          <h3>SUSCRIBITE</h3>
+          <p class="textoFooter"> Recibí las últimas novedades en tu mail</p>
+          <input class="emailSuscripcion" type="email" name="" id="" placeholder= "Ingresá tu email">
+          <button class="botonSuscripcion">
+          SUSCRIBITE
+          </button>
+      </div>
+      <div class="col-md-4 col-sm-6 detalleFooter">
         <h3>CONTACTO</h3>
         <p class="textoFooter">Tenés dudas? </p>
-            <a id="botonEscribinos" href="../PROYECTO FINAL/Paginas/contacto.html">Escribinos</a>
-    </div>
-    <div class="detalleFooter">
-        <h3 >SEGUINOS EN</h3>
-        <div >
-            <a href="#"><img class="logosFooter" src="../imagenes/logo-instagram.png" alt="">
-            </a>
+        <button class="botonContacto"> 
+        <a href="./contacto.html"> CONTACTO </a>
+        </button>
         </div>
-    </div>
+      <div class="col-md-4 col-sm-6 detalleFooter">
+         <h3>SEGUINOS EN</h3>
+        <div>
+         <a href="#"><img class="logosFooter" src="../imagenes/logo-instagram.png" alt=""></a>
+        </div>
+        </div>
+      </div>
+  </div>    
 </footer>
 </body>
-
 </html>
