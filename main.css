@@ -122,7 +122,6 @@ body {
 
 .destacados .textoDestacados {
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  height: 30vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -138,7 +137,8 @@ body {
           flex-direction: column;
   font-size: 1.3rem;
   text-align: center;
-  margin: 8%;
+  margin: 3%;
+  padding: 10%;
 }
 
 .destacados .textoDestacados h5 {
