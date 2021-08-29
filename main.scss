@@ -504,15 +504,22 @@ a:hover {
 }
 
 .contenedorFotoMajo{
-  margin: -6% 0% 2% 0%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1% 0% 3%;
 }
-
-.fotoMajo{
-  margin: 0% 5% 0px;
-  }
 
 .contenedorTextoMajo{
   font-family: 'Yanone Kaffeesatz', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: auto;
+
 
   h5{
     font-size: 45px;
@@ -523,6 +530,15 @@ a:hover {
   h6{
     font-size: 25px;
   }
+}
+
+#botonNosotros{
+  background-color: #fec5bb;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .contenedorServicios{
@@ -549,8 +565,6 @@ a:hover {
     justify-content: space-between;
     align-items: center;
 
-
-
   }
 
   .nuestrosServicios1{
@@ -563,11 +577,21 @@ a:hover {
     align-content: space-between;
     
     .card{
-      height: 11rem;
       background-color: white;
+      width: 100%;
+      height: 11rem;
     }
 
+    #card-body1{
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 3%;
+      padding: 3%;
+
   }
+}
 
   .tituloClientes{
     text-align: center;
@@ -606,7 +630,7 @@ a:hover {
     }
 
   .contenedorInspiracion{
-    height: 20vh;
+    height: auto;
     background-color: #f8edeb;
     margin: 3% 0;
   }  
